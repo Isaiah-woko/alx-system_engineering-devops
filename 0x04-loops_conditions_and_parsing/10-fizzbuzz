@@ -1,0 +1,21 @@
+#!/usr/bin/env bash
+# This script displays fizzbuzz numbers from 1 to 100.
+
+i=1
+
+while ((i < 100))
+do
+	if [ $((i % 3)) -eq 0 ] && [ $((i % 5)) -eq 0 ]
+	then
+		echo "FizzBuzz"
+	elif [ $((i % 3)) -eq 0 ]
+	then
+		echo "Fizz"
+	elif [ $((i % 5)) -eq 0 ]
+	then
+		echo "Buzz"
+	else
+		echo $i
+	fi
+	((i++))
+done
