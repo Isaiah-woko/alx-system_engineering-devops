@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# This script is displaying "Best School" using while 10 times
+# This script is displaying "Best School" using until 10 times
 
 i=0
 until ((i >= 10))
