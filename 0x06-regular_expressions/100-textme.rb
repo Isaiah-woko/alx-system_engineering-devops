@@ -8,7 +8,7 @@ end
 FILE.foreach(ARGV[0]) do |line|
 	match_data = line.match(/\[from:(\S+)\] \[to:(\S+)\] \[flags:([^\]]+)\]/)
 
-	if mathc_data
+	if match_data
 		sender = match_data[1]
 		receiver = match_data[2]
 		flags = match_data[3]
