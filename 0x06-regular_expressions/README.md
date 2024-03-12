@@ -20,4 +20,5 @@
 | 4. Repetition Token #3 | [4-repetition_token_3.rb](./4-repetition_token_3.rb) |
 | 5. Not quite HBTN yet | [5-beginning_and_end.rb](./5-beginning_and_end.rb) |
 | 6. Call me maybe | [6-phone_number.rb](./6-phone_number.rb) |
-
+| 7. OMG WHY ARE YOU SHOUTING? | [7-OMG_WHY_ARE_YOU_SHOUTING.rb](./7-OMG_WHY_ARE_YOU_SHOUTING.rb) |
+| 8. Textme | [100-textme.rb](./100-textme.rb) |
