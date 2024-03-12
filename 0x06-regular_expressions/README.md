@@ -22,8 +22,3 @@
 | 6. Call me maybe | [6-phone_number.rb](./6-phone_number.rb) |
 | 7. OMG WHY ARE YOU SHOUTING? | [7-OMG_WHY_ARE_YOU_SHOUTING.rb](./7-OMG_WHY_ARE_YOU_SHOUTING.rb) |
 | 8. Textme | [100-textme.rb](./100-textme.rb) |
-
-
-
-
-
