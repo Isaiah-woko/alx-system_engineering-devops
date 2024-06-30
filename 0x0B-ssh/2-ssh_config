@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# congifuring the server to our needs 
+IdentifyFile ~/.ssh/school
+passwordAuthentication no
