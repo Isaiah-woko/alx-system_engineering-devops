@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+# /redirect_me is redirecting to another pager
+apt-get update
+apt-get install -y nginx
+
+# Create a custom index.html
+echo "Hello World!" > /var/www/html/index.html
+sudo sed -i '/listen 80 default_server/a rewrite ^/redirect_me https://github.com/ permanent;' /etc/nginx/sites-available/default
+sudo service apache2 start
