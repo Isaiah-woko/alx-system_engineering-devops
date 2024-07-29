@@ -10,7 +10,7 @@ import sys
 REST_API_URL = "https://jsonplaceholder.typicode.com"
 
 
-def todo_list_progress(employee_ID):
+def todo_list_progress(employee_id):
     """getting the todolist"""
 
     user_url = f'{REST_API_URL}/users/{employee_id}'
