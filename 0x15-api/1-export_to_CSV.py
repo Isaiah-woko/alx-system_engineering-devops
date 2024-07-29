@@ -35,4 +35,3 @@ if __name__ == '__main__':
 
     employee_id = int(sys.argv[1])
     todo_list_progress(employee_id)
-
