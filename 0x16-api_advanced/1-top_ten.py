@@ -7,13 +7,14 @@ import requests
 
 
 def top_ten(subreddit):
-    """return the top ten"""
-    url = f"https://www.reddit.com/r/{subreddit}/hot.json?limit=10"
-    resp = requests.get(url, allow_redirects=False)
-    if resp.status_code == 200:
-        data = resp.json()
-        result = data['data']['children']
-        for post in result:
-            print(result)
-    else:
+    '''
+        returns top ten posts for a given subreddit
+    '''
+    user = {'User-Agent': 'Lizzie'}
+    url = requests.get('https://www.reddit.com/r/{}/hot/.json?limit=10'
+                       .format(subreddit), headers=user).json()
+    try:
+        for post in url.get('data').get('children'):
+            print(post.get('data').get('title'))
+    except Exception:
         print(None)
